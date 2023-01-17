@@ -1,0 +1,61 @@
+.section-qualities {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 94px;
+  }
+  .qualities__container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
+  .qualities{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .qualities__reasons-item{
+    width: 270px;
+  }
+  .qualities__icon {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: var(--our-team-white);
+    border-radius: 4px;
+  }
+  .qualities__details {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-grey-color);
+  }
+  .qualities__icon-antenna,
+.qualities__icon-clock,
+.qualities__icon-diagram,
+.qualities__icon-astronaut {
+  height: 70px;
+  width: 70px;
+}
+.qualities__set {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: var(--primary-text-color);
+  }
+  

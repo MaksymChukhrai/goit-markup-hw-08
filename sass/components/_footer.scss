@@ -1,0 +1,182 @@
+.footer {
+    background: var(--hero-black-color);
+    /* max-width: 1600px; */
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .container-footer{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: baseline;
+  }
+  .footer-logo{
+    text-decoration: none;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  }
+  .web{
+    color: var(--accent-color);
+  }
+  .studio-bottom {
+    color: var(--primary-white-color);
+  }
+  .ad-footer {
+    margin-top: 20px;
+  }
+  .nav-footer {
+    padding: 0px;
+    margin: 0px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    list-style: none;
+    color: var(--primary-white-color);
+  }
+  .address {
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    /* margin-top: 20px; */
+    color: var(--primary-white-color);
+  }
+  .address-map {
+    color: var(--primary-white-color);
+    text-decoration: none;
+    transition: color var(--transition-speed);
+  }
+  .address-map:hover,
+.address-map:focus {
+  color: var(--accent-color);
+  transition: var(--transition-speed);
+}
+.email,
+.tel {
+    font-style: normal;
+    margin-top: 9px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color var(--transition-speed);
+  }
+  .email:hover,
+  .email:focus {
+    color: var(--accent-color);
+    /* transition: var(--transition-speed); */
+  }
+  .tel:hover,
+.tel:focus {
+  color: var(--accent-color);
+  /* transition: var(--transition-speed); */
+}
+.social-footer {
+    margin-left: 70px;
+  }
+  .title-net,
+.subscribe-title {
+  padding: 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+.footer-social-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .footer-social-item {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+  }
+  .footer-social-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--primary-white-color);
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color var(--transition-speed),
+      color var(--transition-speed);
+  }
+  .footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-color);
+}
+.footer-social-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+  }
+  .footer-social-item {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+  }
+  .footer-subscribe {
+    margin-left: auto;
+  }
+  .subscribe-title {
+    display: block;
+  }
+  .subscribe-input {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    width: 358px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.25;
+    background-color: var(--hero-black-color);
+    color: var(--text-color-footer);
+  }
+  .subscribe-btn {
+    position: relative;
+    margin-left: 12px;
+    padding: 10px 62px 10px 28px;
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    border-radius: 4px;
+    box-shadow: var(--shadow-form-button);
+    border: 1px solid var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    transition: backround-color var(--transition-speed);
+  }
+  .subscribe-btn:hover,
+  .subscribe-btn:focus {
+    background-color: var(--active-button-color);
+  }
+  .icon-send {
+    position: absolute;
+    right: 28px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+    fill: var(--primary-white-color);
+  }

@@ -1,0 +1,54 @@
+.section-portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .container-portfolio {
+    margin-right: auto;
+    margin-left: auto;
+  
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
+  .nav-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    list-style: none;
+  }
+  .nav-button:hover,
+.nav-button:focus {
+  background-color: var(--accent-color);
+  box-shadow: var(--card-shadow-portfolio);
+
+  color: var(--primary-white-color);
+}
+.nav-button {
+  border-color: transparent;
+  cursor: pointer;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  background-color: var(--our-team-white);
+  color: var(--hero-black-color);
+  padding: 6px 22px;
+  transition: background-color var(--transition-speed),
+    color var(--transition-speed), box-shadow var(--transition-speed);
+}
+
+  

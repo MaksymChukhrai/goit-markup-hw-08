@@ -1,0 +1,162 @@
+
+
+  .header {
+    background:tomato;
+    width: 480px;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 1px solid var(--border-white-color);
+
+  }
+
+.container-header{
+display: block;
+max-width: 480px;
+  }
+.header__logo{
+    text-decoration: none;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 15px;
+
+  }
+.header__web {
+    color: var(--accent-color);
+  }
+.header__studio {
+    color: var(--primary-black-color);
+  }
+
+
+.header__navi,
+.header__contacts-nav{
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+
+// .header {
+//     background: var(--primary-white-color);
+//     /* width: 1600px; */
+//     margin-right: auto;
+//     margin-left: auto;
+//     border-bottom: 1px solid var(--border-white-color);
+//   }
+//   @include mobile {
+//     .container-header {
+//       width: 480px;
+    
+//     }
+
+//   }
+//   @include desktop {
+//     .container-header{
+//     max-width: 1200px;
+//     margin-left: auto;
+//     margin-right: auto;
+//     padding-left: 15px;
+//     padding-right: 15px;
+//   }
+// }
+
+
+//   .container-header {
+//     display: flex;
+//   }
+//   .header__logo{
+//     text-decoration: none;
+//     font-family: "Raleway";
+//     font-weight: 700;
+//     font-size: 26px;
+//     line-height: 1.19;
+//     letter-spacing: 0.03em;
+//     margin-top: 24px;
+//     margin-bottom: 25px;
+//   }
+//   .header__web {
+//     color: var(--accent-color);
+//   }
+//   .header__studio {
+//     color: var(--primary-black-color);
+//   }
+//   .header__navi {
+//     /* margin-right: auto; */
+//     margin-left: 93px;
+//   }
+//   .header__contacts {
+//     color: var(--primary-grey-color);
+//     display: inline-flex;
+//     align-items: center;
+//     transition: color var(--transition-speed);
+//   }
+//   .header__list-nav,
+//   .header__contacts-nav,
+//   .header__contacts-item{
+//     list-style: none;
+//     margin-left: auto;
+//     gap: 50px;
+//     display: flex;
+//   }
+//   @include mobile {
+//     .header{
+//       display: none;
+//     }
+// // не работает
+//   }
+//   .header__links,
+//   .header__link-current,
+//   .header__contacts{
+//     font-weight: 500;
+//     font-size: 14px;
+//     line-height: 1.14;
+//     letter-spacing: 0.02em;
+//     text-decoration: none;
+//     padding-top: 32px;
+//     padding-bottom: 32px;
+//   }
+//   a.header__contacts:hover,
+// a.header__contacts:focus {
+//   color: var(--accent-color);
+//   fill: var(--accent-color);
+// }
+// a.header__links:hover,
+// a.header__links:focus {
+//   color: var(--accent-color);
+// }
+// a.header__links {
+//   color: var(--primary-text-color);
+//   transition: color var(--transition-speed);
+// }
+// .header__link-current {
+//     color: var(--accent-color);
+//     position: relative;
+//   }
+//   .header__link-current::after {
+//     position: absolute;
+//     display: block;
+//     content: "";
+//     width: 100%;
+//     height: 4px;
+//     border-radius: 2px;
+//     bottom: -1px;
+  
+//     background-color: var(--accent-color);
+//   }
+//   .header__mail-icon,
+// .header__tel-icon {
+//   margin-right: 10px;
+//   align-items: center;
+//   fill: currentColor;
+//   /* transition: var(--transition-speed); */
+// }
+
+// .header__mail-icon:hover,
+// .header__mail-icon:focus {
+//   fill: var(--accent-color);
+//   /* transition: var(--transition-speed); */
+// }

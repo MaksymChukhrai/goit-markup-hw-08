@@ -1,0 +1,106 @@
+.section-team {
+  background: var(--our-team-white);
+  padding-bottom: 94px;
+  padding-top: 94px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.section-team {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 91px;
+  padding-bottom: 94px;
+}
+.container-team {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.directions-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  /* width: 366px; */
+  margin-bottom: 50px;
+
+  color: var(--primary-text-color);
+}
+.our-team {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.olga,
+.igor,
+.mykola,
+.myhailo {
+  background: var(--primary-white-color);
+  box-shadow: var(--card-shadow);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-desk {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+  color: var(--primary-text-color);
+}
+.job-title {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-grey-color);
+}
+.social-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0px 32px; */
+  margin-top: 16px;
+}
+.social-item {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+}
+.social-item:last-child {
+  margin-right: 0;
+}
+.social-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--primary-icon-color);
+  /* background-color: var(--primary-icon-color); */
+  transition: background-color var(--transition-speed),
+    color var(--transition-speed);
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
